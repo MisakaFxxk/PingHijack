@@ -1,0 +1,23 @@
+{
+  "domainStrategy": "IPOnDemand",
+  "rules": [
+    {
+      "type": "field",
+      "outboundTag": "ping-out",
+      "domain": ["gstatic.com","cp.cloudflare.com"]
+    },
+    {
+        "type": "field",
+        "outboundTag": "blackhole",
+        "protocol": [
+            "bittorrent"
+        ]
+    },
+    {
+      "type": "field",
+      "outboundTag": "HK01",
+      "domainMatcher": "hybrid",
+      "inboundTag": ["Shadowsocks_入口IP_面板端口"]
+    }
+  ]
+}

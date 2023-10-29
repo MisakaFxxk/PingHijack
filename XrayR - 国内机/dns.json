@@ -1,0 +1,8 @@
+{
+  "servers": [
+    "8.8.8.8"
+  ],
+  "queryStrategy": "UseIPv4",
+  "disableCache": true,
+  "tag": "dns_inbound"
+}
