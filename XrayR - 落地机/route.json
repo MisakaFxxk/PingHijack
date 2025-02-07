@@ -1,0 +1,10 @@
+{
+  "domainStrategy": "IPOnDemand",
+  "rules": [
+    {
+      "type": "field",
+      "outboundTag": "IPv4_out",
+      "network": "udp,tcp"
+    }
+  ]
+}

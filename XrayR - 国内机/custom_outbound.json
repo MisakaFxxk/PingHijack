@@ -1,0 +1,36 @@
+[
+  {
+      "tag": "HK01",
+      "protocol": "Shadowsocks",
+      "settings": {
+      "servers": [
+          {
+          "address": "入口IP",
+          "port": 隧道入口端口,
+          "method": "aes-256-gcm",
+          "password": "和落地机一样",
+          "uot": true,
+          "UoTVersion": 2,
+          "level": 0
+          }
+      ]
+      },
+      "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+      }
+  },
+  {
+      "tag": "blackhole",
+      "protocol": "Blackhole"
+  },
+  {
+      "tag": "ping-out",
+      "protocol": "Freedom",
+      "settings": {
+          "domainStrategy": "UseIP",
+          "redirect": "127.0.0.1:0",
+          "userLevel": 0
+      }
+  }
+]
