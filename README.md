@@ -8,11 +8,11 @@
 
 #### 2.1、正常情况下的网络架构
 
-![](https://raw.githubusercontent.com/MisakaFxxxk/MisakaF_Emby/main/media/YBhmCD8ubNjq9lp.png)
+![](https://raw.githubusercontent.com/MisakaFxxxk/PingHijack/main/media/YBhmCD8ubNjq9lp.png)
 
 #### 2.2、劫持后的网络架构
 
-![](https://raw.githubusercontent.com/MisakaFxxxk/MisakaF_Emby/main/media/R4xSAZ3Gjp9b1u2.png)
+![](https://raw.githubusercontent.com/MisakaFxxxk/PingHijack/main/media/R4xSAZ3Gjp9b1u2.png)
 
 ## 3、原理讲解
 
@@ -48,9 +48,9 @@ HTTP延迟为**用户到国内服务器的延迟**，HTTPS延迟为**用户到�
 
 一个常见的中转节点在V2后台通常会分为落地和中转两个节点，两个节点的配置中会出现4个端口，全部设置为相同的。
 
-![image-20231029134613849](https://raw.githubusercontent.com/MisakaFxxxk/MisakaF_Emby/main/media/xcCFDe3qgMAOUWI.png)
+![image-20231029134613849](https://raw.githubusercontent.com/MisakaFxxxk/PingHijack/main/media/xcCFDe3qgMAOUWI.png)
 
-![image-20231029134647257](https://raw.githubusercontent.com/MisakaFxxxk/MisakaF_Emby/main/media/8aTAnPg5xzRHqNf.png)
+![image-20231029134647257](https://raw.githubusercontent.com/MisakaFxxxk/PingHijack/main/media/8aTAnPg5xzRHqNf.png)
 
 #### 4.2、国内机安装Xrayr
 
